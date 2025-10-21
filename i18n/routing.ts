@@ -1,4 +1,5 @@
 import { defineRouting } from 'next-intl/routing';
+import { createNavigation } from 'next-intl/navigation';
 
 export const routing = defineRouting({
   // 지원하는 모든 언어 목록
@@ -9,6 +10,9 @@ export const routing = defineRouting({
 
   // 기본 언어(ko)는 경로에 prefix 없음, 다른 언어만 /en, /zh
   localePrefix: 'as-needed',
+
+  // 브라우저 언어 감지 비활성화 - 항상 기본 언어(한국어)로 시작
+  localeDetection: false,
 
   // 도메인별 로케일 매핑 (도메인 구매 후 활성화)
   // domains: [
@@ -29,3 +33,6 @@ export const routing = defineRouting({
   //   }
   // ]
 });
+
+// Create navigation utilities
+export const { Link, redirect, usePathname, useRouter } = createNavigation(routing);

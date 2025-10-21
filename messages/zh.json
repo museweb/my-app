@@ -3,6 +3,38 @@
     "title": "创建 Next App",
     "description": "由 create next app 生成"
   },
+  "common": {
+    "readMore": "了解更多",
+    "learnMore": "了解详情",
+    "getStarted": "开始使用",
+    "contactUs": "联系我们"
+  },
+  "navigation": {
+    "home": "首页",
+    "company": "公司",
+    "about": "关于我们",
+    "history": "公司历程",
+    "team": "团队",
+    "products": "产品",
+    "solutions": "解决方案",
+    "resources": "资源",
+    "contact": "联系"
+  },
+  "footer": {
+    "description": "用创新技术帮助客户取得成功。",
+    "company": "公司",
+    "about": "关于我们",
+    "history": "公司历程",
+    "team": "团队",
+    "resources": "资源",
+    "blog": "博客",
+    "faq": "常见问题",
+    "support": "客户支持",
+    "legal": "法律声明",
+    "privacy": "隐私政策",
+    "terms": "服务条款",
+    "copyright": "保留所有权利。"
+  },
   "home": {
     "getStarted": "编辑 {file} 开始使用。",
     "saveAndSee": "保存后立即查看您的更改。",
@@ -11,5 +43,54 @@
     "learn": "学习",
     "examples": "示例",
     "goToNextjs": "前往 nextjs.org →"
+  },
+  "company": {
+    "about": {
+      "title": "关于我们",
+      "intro": {
+        "title": "公司简介",
+        "content": "我们用创新技术帮助客户取得成功。"
+      },
+      "vision": {
+        "title": "愿景",
+        "content": "成为世界领先的科技公司，改善每个人的生活。"
+      },
+      "mission": {
+        "title": "使命",
+        "content": "通过最好的产品和服务为客户提供价值。"
+      }
+    },
+    "history": {
+      "title": "公司历程",
+      "milestones": {
+        "2020": {
+          "year": "2020年",
+          "event": "公司成立"
+        },
+        "2021": {
+          "year": "2021年",
+          "event": "首个产品发布"
+        },
+        "2022": {
+          "year": "2022年",
+          "event": "进军国际市场"
+        }
+      }
+    },
+    "team": {
+      "title": "我们的团队",
+      "members": {
+        "ceo": {
+          "name": "张伟",
+          "position": "首席执行官",
+          "bio": "拥有20多年行业经验的领导者。"
+        },
+        "cto": {
+          "name": "李娜",
+          "position": "首席技术官",
+          "bio": "推动创新技术开发的专家。"
+        }
+      }
+    }
   }
 }
