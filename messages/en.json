@@ -15,6 +15,7 @@
     "about": "About Us",
     "history": "History",
     "team": "Team",
+    "locations": "Locations",
     "products": "Products",
     "solutions": "Solutions",
     "resources": "Resources",
@@ -36,13 +37,41 @@
     "copyright": "All rights reserved."
   },
   "home": {
-    "getStarted": "Get started by editing {file}.",
-    "saveAndSee": "Save and see your changes instantly.",
-    "deployNow": "Deploy now",
-    "readDocs": "Read our docs",
-    "learn": "Learn",
-    "examples": "Examples",
-    "goToNextjs": "Go to nextjs.org →"
+    "hero": {
+      "title": "Building the Future with Innovative Technology",
+      "subtitle": "Drive your business success with cutting-edge solutions. Experience global standard products and services.",
+      "cta": {
+        "primary": "View Products",
+        "secondary": "About Us"
+      }
+    },
+    "features": {
+      "title": "Why Choose Us?",
+      "subtitle": "We provide the best solutions for your success",
+      "items": {
+        "performance": {
+          "title": "Exceptional Performance",
+          "description": "We deliver fast and reliable services with optimized technology."
+        },
+        "security": {
+          "title": "Robust Security",
+          "description": "Your data is protected with industry-leading security systems."
+        },
+        "global": {
+          "title": "Global Service",
+          "description": "We provide the same quality of service anywhere in the world."
+        },
+        "innovation": {
+          "title": "Continuous Innovation",
+          "description": "We stay ahead with solutions powered by the latest technology."
+        }
+      }
+    },
+    "cta": {
+      "title": "Get Started Today",
+      "subtitle": "Consult with our experts and find the best solution for your business.",
+      "button": "Contact Us"
+    }
   },
   "company": {
     "about": {
@@ -58,27 +87,46 @@
       "mission": {
         "title": "Mission",
         "content": "We provide value to customers through the best products and services."
+      },
+      "values": {
+        "title": "Core Values",
+        "content": "We pursue integrity, innovation, and excellence while achieving sustainable growth."
       }
     },
     "history": {
       "title": "Company History",
+      "subtitle": "Thank you for joining us on our journey of innovation and growth",
       "milestones": {
         "2020": {
           "year": "2020",
-          "event": "Company founded"
+          "event": "Company Founded",
+          "description": "We started with a vision to change the world through innovative technology."
         },
         "2021": {
           "year": "2021",
-          "event": "First product launched"
+          "event": "First Product Launched",
+          "description": "We introduced our first solution to help customers succeed."
         },
         "2022": {
           "year": "2022",
-          "event": "International market expansion"
+          "event": "International Market Expansion",
+          "description": "We expanded our business into global markets."
+        },
+        "2023": {
+          "year": "2023",
+          "event": "Technology Innovation Award",
+          "description": "We won multiple awards for industry-recognized innovative technology."
+        },
+        "2024": {
+          "year": "2024",
+          "event": "AI-Powered Solution Launch",
+          "description": "We launched innovative products powered by next-generation artificial intelligence."
         }
       }
     },
     "team": {
       "title": "Our Team",
+      "subtitle": "Meet our team driving innovation with passion and expertise",
       "members": {
         "ceo": {
           "name": "John Doe",
@@ -89,6 +137,352 @@
           "name": "Jane Smith",
           "position": "CTO",
           "bio": "An expert driving innovative technology development."
+        },
+        "cmo": {
+          "name": "Sarah Johnson",
+          "position": "CMO",
+          "bio": "A marketing expert leading global market strategies."
+        },
+        "coo": {
+          "name": "Michael Lee",
+          "position": "COO",
+          "bio": "An operations expert building efficient operational systems."
+        }
+      }
+    },
+    "locations": {
+      "title": "Global Offices",
+      "subtitle": "We are with our customers in major cities around the world",
+      "offices": {
+        "seoul": {
+          "name": "Seoul Headquarters",
+          "address": "123 Teheran-ro, Gangnam-gu\nSeoul 06234, South Korea",
+          "phone": "+82-2-1234-5678",
+          "email": "seoul@lavarwave.co.kr"
+        },
+        "newyork": {
+          "name": "New York Office",
+          "address": "123 Broadway\nNew York, NY 10006, United States",
+          "phone": "+1-212-123-4567",
+          "email": "newyork@lavarwave.com"
+        },
+        "shanghai": {
+          "name": "Shanghai Office",
+          "address": "123 Century Avenue, Pudong New Area\nShanghai 200120, China",
+          "phone": "+86-21-1234-5678",
+          "email": "shanghai@lavarwave.cn"
+        }
+      }
+    }
+  },
+  "products": {
+      "title": "Products",
+      "subtitle": "Grow your business with innovative technology solutions",
+      "learnMore": "Learn More",
+      "backToProducts": "Back to Products",
+      "keyFeatures": "Key Features",
+      "benefits": {
+        "title": "Key Benefits"
+      },
+      "contactSales": "Contact Sales",
+      "categories": {
+        "cloud-solutions": {
+          "name": "Cloud Solutions",
+          "description": "Scalable cloud infrastructure and services"
+        },
+        "ai-analytics": {
+          "name": "AI & Analytics",
+          "description": "Intelligent data analysis and machine learning solutions"
+        },
+        "security": {
+          "name": "Security",
+          "description": "Enterprise-grade security and compliance solutions"
+        }
+      },
+      "items": {
+        "cloud-platform": {
+          "name": "Cloud Platform",
+          "description": "Comprehensive cloud infrastructure platform with auto-scaling and management capabilities",
+          "features": {
+            "0": "Auto-scaling infrastructure",
+            "1": "Global CDN",
+            "2": "Real-time monitoring",
+            "3": "99.99% uptime SLA"
+          },
+          "featureDetails": {
+            "0": "Automatically adjusts resources based on workload to ensure optimal performance and cost efficiency.",
+            "1": "Provides fast content delivery through globally distributed CDN.",
+            "2": "Identifies issues immediately with real-time performance monitoring and alerts.",
+            "3": "Ensures service stability with industry-leading uptime guarantees."
+          },
+          "benefits": {
+            "0": "Cloud Platform provides infrastructure that automatically scales with your business growth.",
+            "1": "Guarantees fast response times and reliable service from anywhere in the world.",
+            "2": "Focus solely on application development without complex infrastructure management."
+          }
+        },
+        "data-analytics": {
+          "name": "Data Analytics Suite",
+          "description": "Advanced analytics platform for business intelligence and data visualization",
+          "features": {
+            "0": "Real-time data processing",
+            "1": "AI-powered insights",
+            "2": "Custom dashboards",
+            "3": "Predictive analytics"
+          },
+          "featureDetails": {
+            "0": "Processes and analyzes large volumes of data in real-time.",
+            "1": "AI discovers hidden patterns and insights from your data.",
+            "2": "Easily create custom dashboards tailored to your business needs.",
+            "3": "Predicts future trends based on historical data."
+          },
+          "benefits": {
+            "0": "Improve business outcomes through data-driven decision making.",
+            "1": "Easily understand complex data through intuitive visualizations.",
+            "2": "Save time as AI automatically discovers important insights."
+          }
+        },
+        "ml-platform": {
+          "name": "ML Platform",
+          "description": "End-to-end machine learning platform for model development and deployment",
+          "features": {
+            "0": "AutoML capabilities",
+            "1": "Model version control",
+            "2": "A/B testing",
+            "3": "Production deployment"
+          },
+          "featureDetails": {
+            "0": "Quickly find optimal models through automated machine learning.",
+            "1": "Track and manage all versions of your models.",
+            "2": "Test multiple models simultaneously to select the best performance.",
+            "3": "Deploy models to production with one click."
+          },
+          "benefits": {
+            "0": "Build powerful AI models even without machine learning expertise.",
+            "1": "Streamline the entire process from model development to deployment.",
+            "2": "Improve AI model accuracy through continuous enhancement."
+          }
+        },
+        "security-shield": {
+          "name": "Security Shield",
+          "description": "Comprehensive security solution protecting infrastructure and data",
+          "features": {
+            "0": "DDoS protection",
+            "1": "Web application firewall",
+            "2": "Threat detection",
+            "3": "24/7 monitoring"
+          },
+          "featureDetails": {
+            "0": "Protects your services from large-scale DDoS attacks.",
+            "1": "Blocks various attacks against web applications.",
+            "2": "Identifies security threats in real-time with AI-based threat detection.",
+            "3": "Security experts monitor systems 24/7."
+          },
+          "benefits": {
+            "0": "Safely protect your business from the latest security threats.",
+            "1": "Easily meet compliance requirements.",
+            "2": "Respond quickly and recover when security incidents occur."
+          }
+        },
+        "compliance-manager": {
+          "name": "Compliance Manager",
+          "description": "Automated compliance management and audit reporting",
+          "features": {
+            "0": "Automated auditing",
+            "1": "Compliance reporting",
+            "2": "Policy management",
+            "3": "Multi-framework support"
+          },
+          "featureDetails": {
+            "0": "Continuously verify compliance status through regular automated audits.",
+            "1": "Automatically generate detailed compliance reports.",
+            "2": "Centrally manage security policies across the organization.",
+            "3": "Supports various regulations including ISO, SOC2, GDPR."
+          },
+          "benefits": {
+            "0": "Save time and costs by automating manual audit work.",
+            "1": "Minimize compliance violation risks and meet regulatory requirements.",
+            "2": "Respond quickly by monitoring real-time compliance status."
+          }
+        },
+        "serverless-functions": {
+          "name": "Serverless Functions",
+          "description": "Execute code without server management with auto-scaling capabilities",
+          "features": {
+            "0": "Pay-per-execution",
+            "1": "Auto-scaling",
+            "2": "Multiple runtimes",
+            "3": "Built-in monitoring"
+          },
+          "featureDetails": {
+            "0": "Optimize costs by paying only for what you use.",
+            "1": "Automatically scales up and down based on traffic.",
+            "2": "Supports various languages including Node.js, Python, Go.",
+            "3": "Automatically collects function execution logs and performance metrics."
+          },
+          "benefits": {
+            "0": "Focus solely on code development without server management burden.",
+            "1": "Automatically responds to traffic changes to maintain optimal performance.",
+            "2": "Economical as you only pay for resources used."
+          }
+        }
+      }
+  },
+  "contact": {
+      "title": "Contact Us",
+      "subtitle": "Get in touch with us for any inquiries",
+      "form": {
+        "title": "Contact Form",
+        "name": "Name",
+        "email": "Email",
+        "phone": "Phone (Optional)",
+        "subject": "Subject",
+        "message": "Message",
+        "submit": "Send Message",
+        "sending": "Sending...",
+        "success": "Your message has been sent successfully. We will get back to you soon.",
+        "error": "Failed to send message. Please try again later."
+      },
+      "info": {
+        "title": "Contact Information",
+        "address": {
+          "title": "Address",
+          "content": "123 Teheran-ro, Gangnam-gu\nSeoul 06234, South Korea"
+        },
+        "phone": {
+          "title": "Phone",
+          "content": "+82-2-1234-5678"
+        },
+        "email": {
+          "title": "Email",
+          "content": "contact@lavarwave.co.kr"
+        },
+        "hours": {
+          "title": "Business Hours",
+          "content": "Monday - Friday: 9:00 AM - 6:00 PM\nSaturday - Sunday: Closed"
+        }
+      }
+  },
+  "legal": {
+      "privacy": {
+        "title": "Privacy Policy",
+        "lastUpdated": "Last Updated: October 21, 2024",
+        "sections": {
+          "intro": {
+            "title": "Introduction",
+            "content": "LavarWave protects and respects your privacy. This Privacy Policy explains how we collect, use, and protect your information."
+          },
+          "collection": {
+            "title": "Information We Collect",
+            "content": "We may collect the following information:\n• Personal identification information such as name, email address, and phone number\n• Account information and login credentials\n• Usage data and analytics information\n• Information through cookies and similar tracking technologies"
+          },
+          "usage": {
+            "title": "How We Use Information",
+            "content": "The collected information is used for:\n• Providing and improving services\n• Customer support and inquiry responses\n• Sending marketing communications (with consent)\n• Security and fraud prevention\n• Compliance with legal obligations"
+          },
+          "sharing": {
+            "title": "Information Sharing",
+            "content": "We do not share your personal information with third parties except:\n• With your explicit consent\n• When sharing with trusted partners to provide services\n• To comply with legal requirements"
+          },
+          "security": {
+            "title": "Security",
+            "content": "We implement industry-standard security measures to protect your personal information. However, no method of transmission over the Internet or electronic storage is 100% secure."
+          },
+          "rights": {
+            "title": "Your Rights",
+            "content": "You have the following rights:\n• Access and request a copy of your personal information\n• Request correction of inaccurate information\n• Request deletion of personal information in certain circumstances\n• Object to or restrict the processing of personal information"
+          },
+          "changes": {
+            "title": "Policy Changes",
+            "content": "We may update this Privacy Policy from time to time. We will notify you of significant changes via email or website notice."
+          }
+        }
+      },
+      "terms": {
+        "title": "Terms of Service",
+        "lastUpdated": "Last Updated: October 21, 2024",
+        "sections": {
+          "intro": {
+            "title": "Introduction",
+            "content": "These Terms of Service apply to the use of LavarWave's website and services. By using our services, you agree to these terms."
+          },
+          "services": {
+            "title": "Services",
+            "content": "LavarWave provides innovative technology solutions and services. We reserve the right to modify, suspend, or discontinue services without prior notice."
+          },
+          "accounts": {
+            "title": "Accounts",
+            "content": "When creating an account, you must provide accurate and complete information. You are responsible for maintaining account security and all activities that occur under your account."
+          },
+          "prohibited": {
+            "title": "Prohibited Use",
+            "content": "You may not use the services in the following ways:\n• For illegal purposes\n• To infringe on the rights of others\n• To transmit malicious code or viruses\n• To interfere with the proper operation of services\n• To attempt unauthorized access"
+          },
+          "intellectual": {
+            "title": "Intellectual Property",
+            "content": "All content, features, and technology of the services are the exclusive property of LavarWave or its licensors and are protected by copyright, trademark, and other intellectual property laws."
+          },
+          "disclaimer": {
+            "title": "Disclaimer",
+            "content": "Services are provided 'as is' and 'as available'. We make no warranties regarding the accuracy, completeness, or usefulness of the services."
+          },
+          "limitation": {
+            "title": "Limitation of Liability",
+            "content": "To the maximum extent permitted by law, LavarWave shall not be liable for any indirect, incidental, special, consequential, or punitive damages arising from the use of services."
+          },
+          "termination": {
+            "title": "Termination",
+            "content": "We may suspend or terminate your account for any reason without prior notice. Upon termination, you must immediately cease using the services."
+          }
+        }
+      },
+      "cookies": {
+        "title": "Cookie Policy",
+        "lastUpdated": "Last Updated: October 21, 2024",
+        "sections": {
+          "intro": {
+            "title": "Introduction",
+            "content": "This Cookie Policy explains how LavarWave uses cookies and similar technologies on our website."
+          },
+          "what": {
+            "title": "What Are Cookies?",
+            "content": "Cookies are small text files stored on your device when you visit a website. Cookies help websites recognize you, remember your settings, and provide a better user experience."
+          },
+          "types": {
+            "title": "Types of Cookies",
+            "content": "We use the following types of cookies:\n• Essential cookies: Required for basic website functionality\n• Performance cookies: Collect information about how the website is used\n• Functional cookies: Provide enhanced functionality and personalization\n• Targeting cookies: Deliver relevant advertising"
+          },
+          "usage": {
+            "title": "Cookie Usage",
+            "content": "We use cookies for:\n• Maintaining website functionality and security\n• Analyzing performance and usage patterns\n• Personalizing user experience\n• Delivering relevant advertising"
+          },
+          "control": {
+            "title": "Cookie Control",
+            "content": "You can control or delete cookies through your browser settings. However, disabling cookies may affect the functionality of some website features."
+          },
+          "updates": {
+            "title": "Policy Updates",
+            "content": "We may update this Cookie Policy from time to time. Changes will be posted on this page and the 'Last Updated' date will be revised."
+          }
+        },
+        "cookieTypes": {
+          "title": "Cookie Categories",
+          "essential": {
+            "title": "Essential Cookies",
+            "description": "These cookies are necessary for the basic functionality of the website and cannot be disabled."
+          },
+          "performance": {
+            "title": "Performance Cookies",
+            "description": "These cookies collect information about how visitors use the website to help improve performance."
+          },
+          "functional": {
+            "title": "Functional Cookies",
+            "description": "These cookies provide enhanced functionality and personalization and remember user preferences."
+          },
+          "targeting": {
+            "title": "Targeting Cookies",
+            "description": "These cookies are used to deliver advertising that is more relevant to you and your interests."
+          }
         }
       }
     }

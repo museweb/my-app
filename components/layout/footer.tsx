@@ -11,7 +11,7 @@ export async function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Company Info */}
           <div>
-            <h3 className="font-bold text-lg mb-4">LavarWave</h3>
+            <h3 className="font-bold text-lg mb-4">MuseWorks</h3>
             <p className="text-sm text-gray-600">{t('description')}</p>
           </div>
           
@@ -46,7 +46,7 @@ export async function Footer() {
         </div>
         
         <div className="mt-8 pt-8 border-t text-center text-sm text-gray-600">
-          <p>&copy; {currentYear} LavarWave. {t('copyright')}</p>
+          <p>&copy; {currentYear} MuseWorks. {t('copyright')}</p>
         </div>
       </div>
     </footer>

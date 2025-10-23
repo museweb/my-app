@@ -1,27 +1,52 @@
 import { getTranslations } from 'next-intl/server';
+import { Card } from '@/components/ui/card';
+import { User } from 'lucide-react';
 
 export default async function TeamPage() {
   const t = await getTranslations('company.team');
-  
+
+  const members = ['ceo', 'cto', 'cmo', 'coo'] as const;
+
   return (
-    <div className="min-h-screen p-8 pb-20 sm:p-20">
-      <main className="max-w-4xl mx-auto">
-        <h1 className="text-4xl font-bold mb-8">{t('title')}</h1>
-        
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          <div className="p-6 border rounded-lg">
-            <h3 className="text-2xl font-semibold mb-2">{t('members.ceo.name')}</h3>
-            <p className="text-gray-600 mb-4">{t('members.ceo.position')}</p>
-            <p className="text-lg">{t('members.ceo.bio')}</p>
+    <div className="min-h-screen bg-gray-50 py-16">
+      <div className="container mx-auto px-4">
+        <div className="mx-auto max-w-6xl">
+          {/* Header */}
+          <div className="mb-16 text-center">
+            <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
+              {t('title')}
+            </h1>
+            <p className="mt-4 text-xl text-gray-600">
+              {t('subtitle')}
+            </p>
           </div>
-          
-          <div className="p-6 border rounded-lg">
-            <h3 className="text-2xl font-semibold mb-2">{t('members.cto.name')}</h3>
-            <p className="text-gray-600 mb-4">{t('members.cto.position')}</p>
-            <p className="text-lg">{t('members.cto.bio')}</p>
+
+          {/* Team Grid */}
+          <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
+            {members.map((member) => (
+              <Card key={member} className="overflow-hidden">
+                {/* Avatar Placeholder */}
+                <div className="flex h-48 items-center justify-center bg-gradient-to-br from-blue-500 to-blue-700">
+                  <User className="h-24 w-24 text-white opacity-50" />
+                </div>
+
+                {/* Member Info */}
+                <div className="p-6">
+                  <h3 className="text-xl font-bold text-gray-900">
+                    {t(`members.${member}.name`)}
+                  </h3>
+                  <p className="mt-1 text-sm font-medium text-blue-600">
+                    {t(`members.${member}.position`)}
+                  </p>
+                  <p className="mt-4 text-sm text-gray-600">
+                    {t(`members.${member}.bio`)}
+                  </p>
+                </div>
+              </Card>
+            ))}
           </div>
         </div>
-      </main>
+      </div>
     </div>
   );
 }

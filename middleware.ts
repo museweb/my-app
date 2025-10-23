@@ -8,6 +8,7 @@ export const config = {
   // - /api 로 시작하는 경로 (API 라우트)
   // - /_next 로 시작하는 경로 (Next.js 내부 파일)
   // - /_vercel 로 시작하는 경로 (Vercel 내부 파일)
+  // - /studio 로 시작하는 경로 (Sanity Studio)
   // - 점(.)을 포함하는 경로 (정적 파일: favicon.ico, images 등)
-  matcher: ['/((?!api|_next|_vercel|.*\\..*).*)']
+  matcher: ['/((?!api|_next|_vercel|studio|.*\\..*).*)']
 };

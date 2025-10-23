@@ -5,19 +5,20 @@ export async function Navigation() {
   const t = await getTranslations('navigation');
   
   const navItems = [
-    { 
+    {
       label: t('company'),
       href: '/company/about',
       children: [
         { label: t('about'), href: '/company/about' },
         { label: t('history'), href: '/company/history' },
         { label: t('team'), href: '/company/team' },
+        { label: t('locations'), href: '/company/locations' },
       ]
     },
     { label: t('products'), href: '/products' },
     { label: t('solutions'), href: '/solutions' },
     { label: t('resources'), href: '/resources' },
-    { label: t('contact'), href: '/contact' },
+    { label: t('contact'), href: '/support/contact' },
   ];
   
   return (
